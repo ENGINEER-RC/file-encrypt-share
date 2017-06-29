@@ -1,4 +1,6 @@
 <?php
+
+//https://github.com/stevenholder/PHP-Java-AES-Encrypt
 class Security {
 	public static function encrypt($input, $key) {
 		$size = mcrypt_get_block_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_ECB); 
